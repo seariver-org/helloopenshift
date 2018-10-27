@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HelloOpenShiftApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HelloOpenShiftApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(HelloOpenShiftApplication.class, args);
+    }
 }
