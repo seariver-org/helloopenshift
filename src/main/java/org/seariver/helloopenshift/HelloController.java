@@ -17,7 +17,7 @@ public class HelloController {
     @GetMapping(value = "hello", produces = "application/json")
     public ResponseEntity hello() {
 
-        String json = String.format("{\"hello\": \"%s\", \"appName\": \"%s\"}", appName, message);
+        String json = String.format("{\"hello\": \"%s\", \"appName\": \"%s\"}", message, appName);
 
         return ResponseEntity.ok().body(json);
     }
