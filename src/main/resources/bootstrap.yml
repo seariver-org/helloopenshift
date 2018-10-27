@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ${project.artifactId}
+  cloud:
+    kubernetes:
+      reload:
+        mode: event
+        strategy: restart-context
+        monitoring-secrets: true
+        monitoring-config-maps: true
+  profiles:
+    active:
+      - default
+management:
+  endpoint:
+    health:
+      show-details: always

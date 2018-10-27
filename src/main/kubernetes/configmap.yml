@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: helloopenshift
+  namespace: seariver
+data:
+  application.yml: |-
+    hello:
+      message: OpenShift
