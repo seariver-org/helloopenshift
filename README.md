@@ -1,6 +1,6 @@
 # Hello OpenShift
 
-Deploy a simple Spring-Boot + Java application in OpenShit in just a few steps.
+Deploy a simple Spring-Boot + Java application in OpenShift in just a few steps.
 
 ## Minishift Initialization
 
