@@ -2,6 +2,14 @@
 
 Quickstart with OpenShift and Spring-Boot.
 
+## Running application
+
+```
+mvn spring-boot:run
+```
+
+http://localhost:8080/hello
+
 ## Step 0: Installing Minishift 
 
 https://docs.okd.io/latest/minishift/getting-started/installing.html
