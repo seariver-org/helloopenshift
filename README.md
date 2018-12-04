@@ -39,3 +39,17 @@ oc new-project seariver
 ```
 oc policy add-role-to-user view system:serviceaccount:$(oc project -q):default -n $(oc project -q)
 ```
+
+## OPTIONAL: Maven Version
+
+### Checking for new dependency updates
+
+```
+mvn versions:display-dependency-updates
+```
+
+### Checking for new plugin updates
+
+```
+mvn versions:display-plugin-updates
+```
